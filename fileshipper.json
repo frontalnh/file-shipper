@@ -1,0 +1,14 @@
+{
+  "checkSumPath": "",
+  "dirPairs": [
+    [
+      "/Users/namhoonlee/Desktop/git/file-shipper/data/input",
+      "/Users/namhoonlee/Desktop/git/file-shipper/data/output"
+    ]
+  ],
+  "s3": {
+    "inputDir": "/Users/namhoonlee/Desktop/git/file-shipper/data/input",
+    "bucketName": "namhoon-lee",
+    "region": "ap-northeast-2"
+  }
+}
