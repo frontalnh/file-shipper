@@ -114,10 +114,12 @@ class FileShipper {
       const [fileName] = inputFilePath.split('/').slice(-1);
 
       await s3Helper.upload(
-        fileName
-          .split('.')
-          .slice(0, -1)
-          .join(''),
+        Date.now().toString() +
+          '/' +
+          fileName
+            .split('.')
+            .slice(0, -1)
+            .join(''),
         file
       );
 
